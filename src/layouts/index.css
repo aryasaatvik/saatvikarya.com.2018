@@ -25,12 +25,23 @@ a {
   }
 }
 
+@keyframes HeroGroupAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
 .Hero {
   height: 100vh;
   background: url('../images/wallpaper.jpg');
   background-position: center;
   background-size: cover;
-  animation: HeroAnimation 2.4s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: HeroAnimation 2s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 
@@ -55,17 +66,26 @@ a {
   font-size: 50px;
   margin: 0;
   line-height: 1.2;
+  animation: HeroGroupAnimation 1s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+
 }
 
 #profile {
   width: 150px;
   padding-top: 8px;
   margin: 8px 8px 0px 8px;
+  animation: HeroGroupAnimation 1s 0.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+
 }
 
 #description {
   margin: 8px;
   padding-bottom: 12px;
+  animation: HeroGroupAnimation 1s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Socials {
+  animation: HeroGroupAnimation 1s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero p {
