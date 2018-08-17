@@ -1,16 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Header from '../components/header';
+
+import Socials from '../components/socials';
 
 const IndexPage = () => (
 <div>
-  <Header />
   <div className="Hero">
     <div className="HeroGroup">
+      <img id="profile" width="150" src={require("../images/profile.png")}></img>
       <h1>Saatvik Arya</h1>
-      <p>Welcome</p>
-      <p>Now go build something great.</p>
-      <Link to="/page-2/">Go to page 2</Link>
+      <p id="description">I am currently pursuing Computer Science at the University of Washington</p>
+      <Socials />
     </div>
   </div>
 </div>
