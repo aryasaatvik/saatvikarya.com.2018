@@ -37,6 +37,11 @@ a {
 }
 
 .Hero {
+  /* position: relative; */
+  /* padding: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   background: url('../images/wallpaper.jpg');
   background-position: center;
@@ -47,13 +52,12 @@ a {
 
 
 .HeroGroup {
+  padding: 12px 12px;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
   box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
-  position: absolute;
-  height: 55vh;
-  width: 40vw;
+  max-width: 640px;
+  margin: 0 auto;
   background: white;
-  margin: 22.5vh 30vw;
   text-align: center;
 }
 
@@ -94,13 +98,13 @@ a {
   color: black;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 640px) {
   .HeroGroup {
-    position: absolute;
-    height: 40vh;
-    width: 60vw;
+    /* position: absolute; */
+    /* height: 40vh; */
+    max-width: 500px;
     background: white;
-    margin: 30vh 20vw;
+    margin: auto;
     text-align: center;
   }
 
