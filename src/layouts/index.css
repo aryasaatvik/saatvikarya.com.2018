@@ -49,8 +49,6 @@ a {
   animation: HeroAnimation 2s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-
-
 .HeroGroup {
   padding: 12px 12px;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
