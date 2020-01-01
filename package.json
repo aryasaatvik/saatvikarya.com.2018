@@ -1,7 +1,7 @@
 {
-  "name": "saatvikarya.me",
-  "description": "Saatvik Arya Official Website",
-  "version": "1.0.0",
+  "name": "saatvikarya.com",
+  "description": "Saatvik Arya",
+  "version": "1.1",
   "author": "Saatvik Arya <aryasaatvik@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.277",
@@ -27,6 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aryasaatvik/saatvikarya.me"
+    "url": "https://github.com/aryasaatvik/saatvikarya.com"
   }
 }
