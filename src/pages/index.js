@@ -9,7 +9,7 @@ const IndexPage = () => (
     <div className="HeroGroup">
       <img id="profile" width="150" src={require("../images/profile.png")}></img>
       <h1>Saatvik Arya</h1>
-      <p id="description">I am currently pursuing Computer Science at the University of Washington</p>
+      <p id="description">I am a sophomore studying Informatics and Psychology at the University of Washington. I am passionate about product focused development for change.</p>
       <Socials />
     </div>
   </div>

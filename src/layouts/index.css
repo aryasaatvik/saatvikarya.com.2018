@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One|Courier+Prime');
 
 body {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Courier Prime', monospace;
+  color: green;
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
   line-height: 1.3;
@@ -55,7 +56,7 @@ a {
   box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
   max-width: 640px;
   margin: 0 auto;
-  background: white;
+  background: #FFFAE4;
   text-align: center;
 }
 
@@ -64,7 +65,7 @@ a {
 }
 
 .Hero h1 {
-  color: black;
+  color: #26393D;
   font-size: 50px;
   margin: 0;
   line-height: 1.2;
@@ -93,7 +94,7 @@ a {
 .Hero p {
   font-size: 28px;
   line-height: 1.3;
-  color: black;
+  color: #40627C;
 }
 
 @media (max-width: 640px) {
@@ -101,7 +102,6 @@ a {
     /* position: absolute; */
     /* height: 40vh; */
     max-width: 500px;
-    background: white;
     margin: auto;
     text-align: center;
   }
