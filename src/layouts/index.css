@@ -44,7 +44,7 @@ a {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('../images/wallpaper.jpg');
+  background: url('../images/wallpaper.png');
   background-position: center;
   background-size: cover;
   animation: HeroAnimation 2s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
