@@ -5,11 +5,12 @@ import Particles from 'react-particles-js';
 
 const IndexPage = () => (
 <div>
+
 <Particles className="particles"
     params={{
       "particles": {
         "number": {
-          "value": 240,
+          "value": 800,
           "density": {
             "enable": true,
             "value_area": 800
@@ -76,15 +77,15 @@ const IndexPage = () => (
         }
       },
       "interactivity": {
-        "detect_on": "canvas",
+        "detect_on": "window",
         "events": {
           "onhover": {
             "enable": true,
-            "mode": "bubble"
+            "mode": "repulse"
           },
           "onclick": {
             "enable": true,
-            "mode": "repulse"
+            "mode": "push"
           },
           "resize": true
         },
@@ -103,11 +104,11 @@ const IndexPage = () => (
             "speed": 3
           },
           "repulse": {
-            "distance": 400,
+            "distance": 50,
             "duration": 0.4
           },
           "push": {
-            "particles_nb": 4
+            "particles_nb": 40
           },
           "remove": {
             "particles_nb": 2
@@ -125,6 +126,7 @@ const IndexPage = () => (
     </div>
   </div>
 </div>
+
 )
 
 export default IndexPage

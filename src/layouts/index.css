@@ -44,18 +44,18 @@ a {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('../images/wallpaper.png');
   background-position: center;
   background-size: cover;
   animation: HeroAnimation 2s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  z-index: 5;
+  z-index: 15;
 }
 
 .particles {
-  position: absolute;
+  background: url('../images/wallpaper.png');
+  position: fixed;
   height: 100vh;
   width: 100vw;
-  z-index: 10;
+  z-index: -10;
 }
 
 .HeroGroup {
@@ -98,6 +98,7 @@ a {
 
 .Socials {
   animation: HeroGroupAnimation 1s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  z-index: 100;
 }
 
 .Hero p {
